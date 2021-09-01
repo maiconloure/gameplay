@@ -32,8 +32,8 @@ export function SignIn() {
         </Text>
 
         <ButtonIcon 
-          title="Entrar com Discord" 
-          activeOpacity={0.7} 
+          title="Entrar com Discord!" 
+          activeOpacity={0.8} 
         />
       </View>
     </View>
