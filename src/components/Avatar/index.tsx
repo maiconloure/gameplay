@@ -7,6 +7,7 @@ import { styles } from './styles';
 type Props = {
   urlImage: string;
 }
+
 export function Avatar({ urlImage }: Props) {
   const { secondary40, secondary70 } = theme.colors;
 
