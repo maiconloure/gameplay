@@ -21,6 +21,24 @@ export function Guilds({ handleGuildSelect }: Props) {
       name: 'Galerinha do Mal',
       icon: 'image',
       owner: true
+    },
+    {
+      id: '3',
+      name: 'Galerinha do Mal',
+      icon: 'image',
+      owner: true
+    },
+    {
+      id: '4',
+      name: 'Galerinha do Mal',
+      icon: 'image',
+      owner: true
+    },
+    {
+      id: '5',
+      name: 'Galerinha do Mal',
+      icon: 'image',
+      owner: true
     }
   ]
   
@@ -32,10 +50,10 @@ export function Guilds({ handleGuildSelect }: Props) {
         renderItem={({ item }) => (
           <Guild data={item} onPress={() => handleGuildSelect(item)} />
         )}
-        ItemSeparatorComponent={() => <ListDivider  />}
-        ListHeaderComponent={() => <ListDivider  />}
+        ItemSeparatorComponent={() => <ListDivider isCentered />}
+        // ListHeaderComponent={() => <ListDivider  />}
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingBottom: 68, paddingTop: 103 }}
+        contentContainerStyle={{ paddingBottom: 70, paddingTop: 60 }}
         style={styles.guilds}
       />
     </View>

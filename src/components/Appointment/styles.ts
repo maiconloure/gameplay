@@ -29,7 +29,8 @@ export const styles = StyleSheet.create({
    footer: {
      width: '100%',
      flexDirection: 'row',
-     justifyContent: 'space-between'
+     justifyContent: 'space-between',
+     marginTop: 10
    },
    dateInfo: {
      flexDirection: 'row',
@@ -50,5 +51,13 @@ export const styles = StyleSheet.create({
      fontSize: 13,
      marginLeft: 7,
      marginRight: 24
+   },
+   guildIconContainer: {
+     width: 64,
+     height: 68,
+     borderRadius: 8,
+     alignItems: 'center',
+     justifyContent: 'center',
+     marginRight: 20
    }
 });
