@@ -4,6 +4,7 @@ import { theme } from '../../global/styles/theme';
 export const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
+    alignItems: 'center'
   },
   user: {
     flexDirection: 'row',
@@ -20,7 +21,8 @@ export const styles = StyleSheet.create({
     color: theme.colors.heading
   },
   message: {
-    fontFamily: theme.fonts.text500,
+    fontFamily: theme.fonts.text400,
+    fontSize: 12,
     color: theme.colors.highlight
   }
 });
