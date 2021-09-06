@@ -6,11 +6,11 @@ import { theme } from '../../global/styles/theme';
 import { Fontisto } from '@expo/vector-icons';
 import { FlatList, ImageBackground, Text, View } from 'react-native';
 import BannerImg from '../../assets/banner.png';
-import { styles } from './styles';
 import { ListHeader } from '../../components/ListHeader';
 import { Member } from '../../components/Member';
 import { ListDivider } from '../../components/ListDivider';
 import { ButtonIcon } from '../../components/ButtonIcon';
+import { styles } from './styles';
 
 export function AppointmentDetails() {
   const members = [

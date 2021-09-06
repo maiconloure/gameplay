@@ -2,10 +2,9 @@ import React from "react";
 import { View, Text, Image } from "react-native";
 import { ButtonIcon } from '../../components/ButtonIcon';
 import { Background } from '../../components/Background';
-import { styles } from './styles';
-
 import illustrationImg from '../../assets/illustration.png';
 import { useNavigation } from "@react-navigation/native";
+import { styles } from './styles';
 
 export function SignIn() {
   const navigation = useNavigation();

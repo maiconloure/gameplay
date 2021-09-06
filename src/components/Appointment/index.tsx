@@ -3,9 +3,9 @@ import { Text, View } from 'react-native';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { categories } from '../../utils/categories';
 import { GuildIcon } from '../GuildIcon';
-import { styles } from './styles';
 import PlayerSvg from '../../assets/player.svg';
 import CalendarSvg from '../../assets/calendar.svg';
+import { styles } from './styles';
 
 import { theme } from '../../global/styles/theme';
 

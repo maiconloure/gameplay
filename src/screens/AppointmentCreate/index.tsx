@@ -5,7 +5,6 @@ import { Background } from '../../components/Background';
 import { CategorySelect } from '../../components/CategorySelect';
 import { Header } from '../../components/Header';
 import { theme } from '../../global/styles/theme';
-import { styles } from './styles';
 import { Feather } from '@expo/vector-icons';
 import { GuildIcon } from '../../components/GuildIcon';
 import { SmallInput } from '../../components/SmallInput';
@@ -14,6 +13,7 @@ import { Button } from '../../components/Button';
 import { ModalView } from '../../components/ModalView';
 import { Guilds } from '../Guilds';
 import { GuildProps } from '../../components/Guild';
+import { styles } from './styles';
 
 export function AppointmentCreate() {
   const [category, setCategory] = useState('');

@@ -1,10 +1,8 @@
 import React from "react";
-import { View, Text, Image, FlatList } from "react-native";
-import { ButtonIcon } from '../../components/ButtonIcon';
-import { Background } from '../../components/Background';
-import { styles } from './styles';
+import { View, FlatList } from "react-native";
 import { Guild, GuildProps } from "../../components/Guild";
 import { ListDivider } from "../../components/ListDivider";
+import { styles } from './styles';
 
 type Props = {
   handleGuildSelect: (guild: GuildProps) => void;

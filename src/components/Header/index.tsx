@@ -4,8 +4,8 @@ import { Text, View } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 import { theme } from '../../global/styles/theme';
 import { Feather } from '@expo/vector-icons';
-import { styles } from './styles';
 import { useNavigation } from '@react-navigation/native';
+import { styles } from './styles';
 
 type Props = {
   title: string;

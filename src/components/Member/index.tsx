@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { theme } from '../../global/styles/theme';
 import { Avatar } from '../Avatar';
 import { styles } from './styles';

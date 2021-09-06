@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
-import React, { useState, useCallback } from "react";
-import { FlatList, Text, View } from 'react-native';
+import React, { useState } from "react";
+import { FlatList, View } from 'react-native';
 import { Appointment } from "../../components/Appointment";
 import { ButtonAdd } from "../../components/ButtonAdd";
 import { CategorySelect } from "../../components/CategorySelect";
